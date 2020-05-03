@@ -7,7 +7,7 @@ The goals of this challenge are:
 - Use Credit Risk *Resampling Techniques* to address class imbalance
 - Evaluate the performance of machine learning models
 
-**Analysis
+## Analysis
 
 The models utilized in this analysis produced low precision in predicting high risk loans, 0.01. This tell us there are many false positives in the dataset. Based on the fact that the models have 100% precision in detecting low risk applications, it can be concluded none of the models were the best fit for the data. 
 
@@ -18,7 +18,7 @@ The ensemble models performance is much better than the latter ones. Even though
 
 Balanced Random Forest managed to get quite a low accuracy score, compared to AdaBoost - 0.67. Its precision rate is very high, the recall rate of finding high risks being signifcantly lower - 0.35. Which says the model fails at detecting the class well. Has perfect metrics in classyfying the low risk applications, 100% in both precision and sensitivity.
 
-**Final Reccomendation
+## Final Reccomendation
 
 After utilizing Ensemble Learners, StandardScaler, Random Sampler, SMOTE Oversampler, Cluster Centroids Undersampler, and SMOTEENN Combined Sampler we find SMOTE Oversampler as the best Machine Learning algorithm providing the better results with an F1 score of 0.82. However, this will require further analysis.
 
