@@ -13,8 +13,7 @@ The models utilized in this analysis produced low precision in predicting high r
 
 However if we were to choose, the random oversampling method showed a pretty decent recall rate - 70% in predicting high risk applicants. And undersampling being the most ineffective - 48.
 
-credit_risk_ensemble
-The ensemble models performance is much better than the latter ones. Even though, AdaBoost showed a pretty low precision in identifying high risk applications, it showed a nice recall rate. Which tells us high risk is well detected but there is also some amount of false negatives. Plus, the AdaBoost's accuracy score is great, 0.90.
+THe credit_risk_ensemble model has a more better performance than previous models. Even though, AdaBoost showed a pretty low precision in identifying high risk applications, it showed a nice recall rate. Which tells us high risk is well detected but there is also some amount of false negatives. Plus, the AdaBoost's accuracy score is great, 0.90.
 
 Balanced Random Forest managed to get quite a low accuracy score, compared to AdaBoost - 0.67. Its precision rate is very high, the recall rate of finding high risks being signifcantly lower - 0.35. Which says the model fails at detecting the class well. Has perfect metrics in classyfying the low risk applications, 100% in both precision and sensitivity.
 
