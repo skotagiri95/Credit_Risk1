@@ -1,12 +1,5 @@
 # Credit_Risk1
 
-# Predicting Credit Risk
-*Python* and Machine Learning: Using pandas and *Skikit-learn* to Predict Credit Risk
-ML![alt text](https://thumbs.dreamstime.com/b/machine-learning-vector-banner-word-line-icon-machine-learning-vector-banner-word-line-icon-vector-background-117806401.jpg)
-***
-## Background
-**Supervised Machine Learning** and Predicting Credit Risk, evaluating several machine learning models to assess credit risk, using data from LendingClub; a peer-to-peer lending services company.
-***
 ## Objectives
 The goals of this challenge are:
 
@@ -25,14 +18,6 @@ For each of the above you will find:
 2. Calculate the balanced accuracy score using balanced_accuracy_score from sklearn.metrics.
 3. Generate a confusion_matrix.
 4. Print the classification report (`classification_report_imbalanced from imblearn.metrics`).
-___
-## Files / Target
-`../Resources/LoanStats_2019Q1.csv`
-- credit_risk_ensemble-Challenge.ipynb
-https://github.com/juan-mpn/CreditRisk/blob/master/Notebook/credit_risk_ensemble-Challenge.ipynb
-+ credit_risk_resampling-Challenge.ipynb
-https://github.com/juan-mpn/CreditRisk/blob/master/Notebook/credit_risk_resampling-Challenge.ipynb
-
 ___
 *`target = ["loan_status"]`*
 + Low-Risk  68,470
@@ -106,5 +91,5 @@ From the confusion matrix results, we can see a large number of false positives 
 **Balanced Accuracy Score: 0.678**
 From the confusion matrix results, we can see a large number of false positives (65),  which indicates an unreliable positive classification. The recall is also low High-Risk = 0.36 and Low-Risk = 1.0 applications, which is indicative of the large number of false negatives. The F1 score is also low (1.0), it seems we have over fit this algorithm and requires further analysis.
 
-## The Credit Risk analysis performed using the data provided, we can see the Machine Learning algorithms can be a good fit.  After utilizing Ensemble Learners, StandardScaler, Random Sampler, SMOTE Oversampler, Cluster Centroids Undersampler, and SMOTEENN Combined Sampler we find SMOTE Oversampler as the best Machine Learning algorithm providing the better results. This will require further analysis and more data but it is looking very promising with an F1 score of 0.82. 
+## The Credit Risk analysis performed using the data provided, we can see the Machine Learning algorithms can be a good fit.  After utilizing Ensemble Learners, StandardScaler, Random Sampler, SMOTE Oversampler, Cluster Centroids Undersampler, and SMOTEENN Combined Sampler we find SMOTE Oversampler as the best Machine Learning algorithm providing the better results with an F1 score of 0.82. However, this will require further analysis.
 
