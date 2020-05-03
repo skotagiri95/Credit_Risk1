@@ -91,5 +91,6 @@ From the confusion matrix results, we can see a large number of false positives 
 **Balanced Accuracy Score: 0.678**
 From the confusion matrix results, we can see a large number of false positives (65),  which indicates an unreliable positive classification. The recall is also low High-Risk = 0.36 and Low-Risk = 1.0 applications, which is indicative of the large number of false negatives. The F1 score is also low (1.0), it seems we have over fit this algorithm and requires further analysis.
 
-## The Credit Risk analysis performed using the data provided, we can see the Machine Learning algorithms can be a good fit.  After utilizing Ensemble Learners, StandardScaler, Random Sampler, SMOTE Oversampler, Cluster Centroids Undersampler, and SMOTEENN Combined Sampler we find SMOTE Oversampler as the best Machine Learning algorithm providing the better results with an F1 score of 0.82. However, this will require further analysis.
+**Final Reccomendation
+After utilizing Ensemble Learners, StandardScaler, Random Sampler, SMOTE Oversampler, Cluster Centroids Undersampler, and SMOTEENN Combined Sampler we find SMOTE Oversampler as the best Machine Learning algorithm providing the better results with an F1 score of 0.82. However, this will require further analysis.
 
